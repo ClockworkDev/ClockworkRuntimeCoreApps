@@ -8,8 +8,9 @@
         "levels.xml"
     ],
     "dependencies": {
-        "components":["ClockworkRuntime","ClockworkRuntimeInternal"]
+        
     },
+    "capabilities":["ClockworkRuntime","ClockworkRuntimeInternal"],
     "themeColor":"#999",
     "backgroundColor":"#333",
     "tileIcon":"tileIcon.png",
