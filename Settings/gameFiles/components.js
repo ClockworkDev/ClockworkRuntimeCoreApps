@@ -1,4 +1,4 @@
-CLOCKWORKRT.components.push([
+CLOCKWORKRT.components.register([
     {
         name: "menu",
         events: [
@@ -16,10 +16,11 @@ CLOCKWORKRT.components.push([
                         button.style.width="60%";
                         button.style.backgroundColor="#555";
                         button.style.textAlign="center";
-                        button.style.margin="10%";
-                        button.style.padding="10%";
+                        button.style.color="white";
+                        button.style.margin="20px 10% 20px 10%";
+                        button.style.padding="20px 10% 20px 10%";
                         button.addEventListener('click', function () {
-                            that.do(event);
+                            that.do[event]();
                         })
                         that.engine.getEngineVar("#DOM").appendChild(button);
                     }
