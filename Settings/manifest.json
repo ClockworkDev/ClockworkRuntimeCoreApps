@@ -2,7 +2,8 @@
     "name": "Settings",
     "scope": "gameFiles",
     "components": [
-        "components.js"
+        "components.js",
+        "NoRendering.js"
     ],
     "levels": [
         "levels.xml"
@@ -15,6 +16,5 @@
     "themeColor":"#999",
     "backgroundColor":"#333",
     "tileIcon":"tileIcon.png",
-    "enginefps": 60,
-    "renderer":"HTML"
+    "enginefps": 60
 }

@@ -22,10 +22,10 @@ CLOCKWORKRT.components.register([
                         button.addEventListener('click', function () {
                             that.do[event]();
                         })
-                        that.engine.getEngineVar("#DOM").appendChild(button);
+                        document.body.appendChild(button);
                     }
-                    that.engine.getEngineVar("#DOM").style.textAlign="center";
-                    that.engine.getEngineVar("#DOM").style.overflowY="auto";
+                    document.body.style.textAlign="center";
+                    document.body.style.overflowY="auto";
                 }
             },
             {
